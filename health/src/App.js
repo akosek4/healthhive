@@ -22,7 +22,8 @@ function App() {
 
   return (
     <div>
-      <Topbar/>
+      <Topbar className="Let"
+      />
       <Disorders disorders={disorders}/>
     </div>
   );

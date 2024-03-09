@@ -6,7 +6,7 @@ const Topbar = () => {
         <h1 className='Topbar'>
             Welcome to Health Hive
         </h1>
-        <h2>
+        <h2 className = 'Parent'>
             <div className='Let'>
                 Let's talk about
             </div>

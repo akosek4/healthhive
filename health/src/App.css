@@ -4,8 +4,15 @@
   background: blanchedalmond;
 }
 
+.Parent{display: inline-flex;
+}
 .Let {
+  font-family: "Quicksand";
+  font-size: 25px;
+  padding-right: 5px
 }
 
 .Health {
+  font-family: 'Shadow Into Light';
+  font-size: 25px
 }
