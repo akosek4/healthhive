@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Disorders from './Disorders';
+import Topbar from './Topbar';
+
 
 function App() {
+  const [disorders, setDisorders] = useState(
+    [
+      {
+        id: 1, 
+        name: "Depression",
+        text: "prolonged sadness and lack of motivation"
+      }, 
+      {
+        id: 2, 
+        name: "ADHD",
+        text: "difficulties focusing"
+      }
+    ]
+  )
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Topbar className="Let"
+      />
+      <Disorders disorders={disorders}/>
     </div>
   );
 }
