@@ -16,6 +16,15 @@ body {
   border: 5px double #6147387f;
 }
 
+.Container {
+  margin: 30px auto;
+  overflow: auto;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 10px; 
+}
+
+
 .Disorder {
   padding-left: 5%;
   border: 6px inset #6147387f;
@@ -92,6 +101,17 @@ body {
 
 .Comments {
   list-style-type: none;
+}
+
+.AddComment {
+  padding-left: 5px;
+}
+
+.AddCommentInput {
+  padding-left: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+
 }
 
 .Comment {
