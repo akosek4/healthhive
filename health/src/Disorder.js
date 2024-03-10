@@ -2,10 +2,12 @@ import React from 'react'
 import ViewBtn from './ViewBtn'
 import { useState } from 'react';
 import Comments from './Comments'
+import AddComment from './AddComment'
 
 
-const Disorder = ({disorder}) => {
+const Disorder = ({disorder, setDisorders, disorders}) => {
   const [showAdd, setShowAdd] = useState(false)
+
 
   return (
     <div className='Disorder'>
@@ -19,6 +21,9 @@ const Disorder = ({disorder}) => {
         </p>
         <div>
           {showAdd ? <Comments comments={disorder.comments}/> : ''}
+        </div>
+        <div>
+          {showAdd ? <AddComment disorder={disorder} disorders={disorders} setDisorders={setDisorders}/> : ''}
         </div>
         <ViewBtn
         text={showAdd ? 'Hide Comments' : 'Show Comments'}
