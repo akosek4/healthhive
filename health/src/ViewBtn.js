@@ -2,7 +2,7 @@ import React from 'react'
 
 const ViewBtn = ({text, onClick}) => {
   return (
-    <button
+    <button className='Button'
     onClick={onClick}>
         {text}
     </button>
