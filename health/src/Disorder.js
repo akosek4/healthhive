@@ -1,6 +1,7 @@
 import React from 'react'
 import ViewBtn from './ViewBtn'
 import { useState } from 'react';
+import Comments from './Comments'
 
 
 const Disorder = ({disorder}) => {
@@ -16,6 +17,9 @@ const Disorder = ({disorder}) => {
         <p>
             {disorder.text}
         </p>
+        <div>
+          {showAdd ? <Comments comments={disorder.comments}/> : ''}
+        </div>
         <ViewBtn
         text={showAdd ? 'Hide Comments' : 'Show Comments'}
         onClick={() => setShowAdd(!showAdd)}>
