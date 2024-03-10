@@ -12,7 +12,6 @@ const Disorder = ({disorder}) => {
             {disorder.name}
         </h1>
         <h2>
-            Description
           </h2>
         <p>
             {disorder.text}
