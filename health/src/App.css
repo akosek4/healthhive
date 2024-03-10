@@ -4,23 +4,53 @@
 background: rgba(255, 253, 205, 0.253)
 }
 
+.Disorder {
+padding-left: 5%;
+
+}
+
 .Parent{display: inline-flex;
   background: #ffd72485;
   width: 100%;
   height: 200px;
   padding-top: 30px
 }
+
 .Let {
   text-align: center;
   font-family: "Quicksand";
   font-size: 30px;
-padding-right: 5px;
-padding-left: 250px
+  padding-right: 5px;
+  padding-left: 250px
 }
 
 .Health {
-font-family: "Satisfy";
+  font-family: "Satisfy";
   font-size: 30px;
   padding-right: 150px
-  size
+
 }
+
+.Comments {
+  list-style-type: none;
+}
+
+.Comment {
+  padding-bottom: 5px;
+}
+
+.Button {
+  background: #a19a68;
+  color: #fff;
+  border: none;
+  padding: 5px 5px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: inherit;
+}
+
+
+  
