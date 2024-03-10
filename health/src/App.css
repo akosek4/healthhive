@@ -3,6 +3,18 @@
   font-size: 30px; 
   letter-spacing: 10px;
 height: 100%
+
+.Disorder {
+  padding-left: 5%;
+  border: 1px solid steelblue;
+  max-width: 85%;
+  /* max-width: 500px; */
+  margin: 30px auto;
+  overflow: auto;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 10px; 
+
 }
 .MiddleSection{display: center;
 background: #ffd72485;
@@ -23,6 +35,7 @@ padding-top: 1.4%
 }
 
 .Health {
+
 font-family: "Satisfy";
   font-size: 50px
 }
@@ -33,5 +46,29 @@ font-family: "Satisfy";
   padding-right: 8%;
   padding-left: 8%;
   text-align: center;
+}
+
+.Comments {
+  list-style-type: none;
+
+}
+
+.Comment {
+  padding-bottom: 5px;
+  font-family: 'Plus Jakarta Sans';
+}
+
+.Button {
+  background: #a19a68;
+  color: #fff;
+  border: none;
+  padding: 5px 5px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: inherit;
+
 }
 
