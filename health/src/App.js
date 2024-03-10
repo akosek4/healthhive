@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Topbar/>
-      <Disorders />
+      <Disorders className='Container'/>
     </div>
   );
 }

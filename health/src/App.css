@@ -5,6 +5,15 @@
 height: 100%
 }
 
+.Container {
+  margin: 30px auto;
+  overflow: auto;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 10px; 
+}
+
+
 .Disorder {
   padding-left: 5%;
   border: 1px solid steelblue;
