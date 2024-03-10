@@ -4,23 +4,41 @@
 background: rgba(255, 253, 205, 0.253)
 }
 
+.Disorder {
+  font-family: 'Satisfy';
+  font-size: 40px;  
+background: rgba(255, 253, 205, 0.253)
+}
+
 .Parent{display: inline-flex;
   background: #ffd72485;
   width: 100%;
   height: 200px;
   padding-top: 30px
 }
+
 .Let {
   text-align: center;
   font-family: "Quicksand";
   font-size: 30px;
-padding-right: 5px;
-padding-left: 250px
+  padding-right: 5px;
+  padding-left: 250px
 }
 
 .Health {
-font-family: "Satisfy";
+  font-family: "Satisfy";
   font-size: 30px;
   padding-right: 150px
-  size
+
 }
+
+.Comments {
+  list-style-type: none;
+}
+
+.Comment {
+  padding-bottom: 5px;
+}
+
+
+  

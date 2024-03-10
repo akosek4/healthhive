@@ -2,15 +2,13 @@ import React from 'react'
 
 const Comments = ({comments}) => {
     const disorderComments = comments.map((comment, index) => (
-    <li key={index}>{comment}</li>
+    <li className='Comment'key={index}>{'Anonymous User: '.concat(comment)}</li>
 ));
 
   return (
-    <div>
     <ul className='Comments'>
         {disorderComments}
     </ul>
-    </div>
   )
 }
 

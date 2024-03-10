@@ -8,7 +8,7 @@ const Disorder = ({disorder}) => {
   const [showAdd, setShowAdd] = useState(false)
 
   return (
-    <div>
+    <div className='Disorder'>
         <h1>
             {disorder.name}
         </h1>
