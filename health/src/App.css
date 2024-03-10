@@ -1,62 +1,102 @@
+body {
+  background-color: #f9f9f7;
+  background-image: url(honcomb.png);
+  z-index: -1;
+  position: absolute;
+}
+
 .Topbar {
-  font-family: 'Satisfy';
-  font-size: 30px; 
+  font-family: "Quicksand";
+  font-size: 35px;
   letter-spacing: 10px;
-height: 100%
+  width: 43%;
+  background-color: #f9f9f7;
+  padding-left: 15px;
+  font-weight: bold;
+  border: 5px double #6147387f;
 }
 
 .Disorder {
   padding-left: 5%;
-  border: 1px solid steelblue;
+  border: 6px inset #6147387f;
   max-width: 85%;
   /* max-width: 500px; */
   margin: 30px auto;
   overflow: auto;
-  border: 1px solid steelblue;
   padding: 30px;
-  border-radius: 10px; 
-
+  border-radius: 10px;
+  font-family: "Quicksand";
+  background-color: #f9f9f7;
 }
-.MiddleSection{display: center;
-background: #ffd72485;
-width: 100%;
-text-align: center;
-padding-bottom: 10px;
-padding-top: 50px;
-padding-bottom: 50px}
 
-.Parent{display: inline-flex;
-  margin-bottom: 1px
+.ImageAndTitle {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 15%;
+}
+
+.MiddleSection {
+  display: center;
+  background-color: #f7e290fe;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  z-index: 2;
+  opacity: 500%;
+  border: 8px double #6147387f;
+}
+
+.Parent {
+  display: inline-flex;
+  margin-bottom: 1px;
+  align-self: center;
 }
 .Let {
   font-family: "Quicksand";
-  font-size: 50px;
-padding-right: 10px;
-padding-top: 1.4%
+  font-size: 75px;
+  padding-right: 10px;
+  padding-top: 1.4%;
 }
 
 .Health {
-
-font-family: "Satisfy";
-  font-size: 50px
+  font-family: "Satisfy";
+  font-size: 75px;
 }
 
 .Introduction {
-  font-family: "Plus Jakarta Sans";
+  font-family: "Outfit";
   font-size: 20px;
   padding-right: 8%;
   padding-left: 8%;
   text-align: center;
+  line-height: 30px;
+}
+
+.Explore {
+  font-family: "Quicksand";
+  width: 40%;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: auto;
+  letter-spacing: 10px;
+  font-weight: bold;
+  z-index: 2;
+  background-color: #f9f9f7;
+  border: 5px double #6147387f;
 }
 
 .Comments {
   list-style-type: none;
-
 }
 
 .Comment {
   padding-bottom: 5px;
-  font-family: 'Plus Jakarta Sans';
+  font-family: "Outfit";
 }
 
 .Button {
@@ -69,7 +109,5 @@ font-family: "Satisfy";
   cursor: pointer;
   text-decoration: none;
   font-size: 10px;
-  font-family: inherit;
-
+  font-family: "Plus Jakarta Sans";
 }
-
