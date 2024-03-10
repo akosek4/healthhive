@@ -11,11 +11,13 @@ function App() {
         id: 1, 
         name: "Depression",
         text: "prolonged sadness and lack of motivation",
+        comments: ['a walk every day help']
       }, 
       {
         id: 2, 
         name: "ADHD",
         text: "difficulties focusing",
+        comments: ['a walk every day help']
       }
     ]
   )

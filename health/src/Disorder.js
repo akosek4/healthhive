@@ -8,9 +8,12 @@ const Disorder = ({disorder}) => {
 
   return (
     <div>
-        <h3>
+        <h1>
             {disorder.name}
-        </h3>
+        </h1>
+        <h2>
+            Description
+          </h2>
         <p>
             {disorder.text}
         </p>
