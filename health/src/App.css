@@ -1,42 +1,37 @@
 .Topbar {
   font-family: 'Satisfy';
-  font-size: 40px;  
-background: rgba(255, 253, 205, 0.253)
+  font-size: 30px; 
+  letter-spacing: 10px;
+height: 100%
 }
-
-.Disorder {
-
-}
+.MiddleSection{display: center;
+background: #ffd72485;
+width: 100%;
+text-align: center;
+padding-bottom: 10px;
+padding-top: 50px;
+padding-bottom: 50px}
 
 .Parent{display: inline-flex;
-  background: #ffd72485;
-  width: 100%;
-  height: 200px;
-  padding-top: 30px
+  margin-bottom: 1px
 }
-
 .Let {
-  text-align: center;
   font-family: "Quicksand";
-  font-size: 30px;
-  padding-right: 5px;
-  padding-left: 250px
+  font-size: 50px;
+padding-right: 10px;
+padding-top: 1.4%
 }
 
 .Health {
-  font-family: "Satisfy";
-  font-size: 30px;
-  padding-right: 150px
-
+font-family: "Satisfy";
+  font-size: 50px
 }
 
-.Comments {
-  list-style-type: none;
+.Introduction {
+  font-family: "Plus Jakarta Sans";
+  font-size: 20px;
+  padding-right: 8%;
+  padding-left: 8%;
+  text-align: center;
 }
 
-.Comment {
-  padding-bottom: 5px;
-}
-
-
-  
