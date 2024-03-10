@@ -5,13 +5,12 @@ const Topbar = () => {
     <div>
       <h1 className="Topbar">share. connect. support.</h1>
       <div className="MiddleSection">
-    
         <div className="ImageAndTitle">
           <h2 className="Parent">
             <div className="Let">Welcome to</div>
             <div className="Health">Health Hive</div>
           </h2>
-          <img src={honeybee} className="HoneyBeeImage"/>
+          <img src={honeybee} className="HoneyBeeImage" />
         </div>
         <p className="Introduction">
           Within these virtual walls, we offer a supportive community where
