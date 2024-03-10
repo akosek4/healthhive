@@ -1,12 +1,19 @@
 .Topbar {
   font-family: 'Satisfy';
   font-size: 40px;  
-background: rgba(255, 253, 205, 0.253)
+  background: rgba(255, 253, 205, 0.253)
 }
 
 .Disorder {
-padding-left: 5%;
-
+  padding-left: 5%;
+  border: 1px solid steelblue;
+  max-width: 85%;
+  /* max-width: 500px; */
+  margin: 30px auto;
+  overflow: auto;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 10px; 
 }
 
 .Parent{display: inline-flex;
@@ -33,10 +40,12 @@ padding-left: 5%;
 
 .Comments {
   list-style-type: none;
+
 }
 
 .Comment {
   padding-bottom: 5px;
+  font-family: 'Plus Jakarta Sans';
 }
 
 .Button {
