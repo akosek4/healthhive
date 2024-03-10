@@ -29,9 +29,9 @@ const AddComment = ({disorder, disorders, setDisorders}) => {
 
 
   return (
-    <form onSubmit={handleSubmit}>
-        <input type='text' placeholder='Add comment' value={comment} onChange={(e)=>setComment(e.target.value)}/>
-        <input className='Button' type='submit' value='Comment' />
+    <form className= 'AddComment' onSubmit={handleSubmit}>
+        <input className='AddCommentInput' type='text' placeholder='Add comment' value={comment} onChange={(e)=>setComment(e.target.value)}/>
+        <input className= 'Button' type='submit' value='Comment' />
     </form>
   )
 }
