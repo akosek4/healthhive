@@ -10,10 +10,30 @@ const AddComment = ({disorder, disorders, setDisorders}) => {
             alert("Please add a comment")
             return
         }
-        console.log(comment);
+        
+
+        if (disorder.name == "Clinical Depression") {
+          disorder.id = "65ed43dad3bd2e37a8591fd7"
+        } else if (disorder.name == "Anxiety Disorder") {
+            disorder.id = "65ed44b3d3bd2e37a8591fd8"
+        } else if (disorder.name == "Psoriasis") {
+          disorder.id = "65ed4538d3bd2e37a8591fd9"
+        } else if (disorder.name == "Tinnitus") {
+          disorder.id = "65ed4592d3bd2e37a8591fda"
+        } else if (disorder.name == "Narcolepsy") {
+          disorder.id = "65ed4640d3bd2e37a8591fdb"
+        } else {
+          disorder.id = "65ed46f7d3bd2e37a8591fdc"
+        }
 
 
+
+        console.log("disorder id:" + disorder.id);
+        console.log(disorders);
         const disorderToUpdate = disorders.find(d => d.id === disorder.id)
+
+
+
 
         const updatedComments = [...disorderToUpdate.comments, comment]
 
@@ -24,6 +44,7 @@ const AddComment = ({disorder, disorders, setDisorders}) => {
         setDisorders(updatedDisorders)
 
         setComment('')
+
 
     }
 

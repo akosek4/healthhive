@@ -23,6 +23,7 @@ const Disorder = ({disorder, setDisorders, disorders}) => {
           {showAdd ? <Comments comments={disorder.comments}/> : ''}
         </div>
         <div>
+        
           {showAdd ? <AddComment disorder={disorder} disorders={disorders} setDisorders={setDisorders}/> : ''}
         </div>
         <ViewBtn
